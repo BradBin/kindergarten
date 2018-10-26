@@ -280,6 +280,16 @@
 		93F4C9822182B79F002A5150 /* KKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9812182B79F002A5150 /* KKProfileViewController.m */; };
 		93F4C9852182C1EB002A5150 /* KKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9842182C1EB002A5150 /* KKNavigationController.m */; };
 		93F4C9892182C77F002A5150 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9882182C77F002A5150 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		93F4C9D62182E9C3002A5150 /* KKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9D52182E9C3002A5150 /* KKModel.m */; };
+		93F4C9FC2182EB0A002A5150 /* KKAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9E82182EB0A002A5150 /* KKAccountTool.m */; };
+		93F4C9FD2182EB0A002A5150 /* KKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9EB2182EB0A002A5150 /* KKAccount.m */; };
+		93F4C9FE2182EB0A002A5150 /* YBRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9ED2182EB0A002A5150 /* YBRefreshGifHeader.m */; };
+		93F4C9FF2182EB0A002A5150 /* YBEmitterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9EF2182EB0A002A5150 /* YBEmitterHelper.m */; };
+		93F4CA002182EB0A002A5150 /* YBRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9F32182EB0A002A5150 /* YBRefreshFooter.m */; };
+		93F4CA012182EB0A002A5150 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9F42182EB0A002A5150 /* UIView+Animation.m */; };
+		93F4CA022182EB0A002A5150 /* YBImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9F62182EB0A002A5150 /* YBImageHelper.m */; };
+		93F4CA032182EB0A002A5150 /* YBDiskCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9F82182EB0A002A5150 /* YBDiskCacheHelper.m */; };
+		93F4CA042182EB0A002A5150 /* YBEmoticonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4C9F92182EB0A002A5150 /* YBEmoticonHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -871,6 +881,27 @@
 		93F4C9842182C1EB002A5150 /* KKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNavigationController.m; sourceTree = "<group>"; };
 		93F4C9872182C77F002A5150 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		93F4C9882182C77F002A5150 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		93F4C9D42182E9C3002A5150 /* KKModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKModel.h; sourceTree = "<group>"; };
+		93F4C9D52182E9C3002A5150 /* KKModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKModel.m; sourceTree = "<group>"; };
+		93F4C9E82182EB0A002A5150 /* KKAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAccountTool.m; sourceTree = "<group>"; };
+		93F4C9E92182EB0A002A5150 /* KKAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAccount.h; sourceTree = "<group>"; };
+		93F4C9EA2182EB0A002A5150 /* KKAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAccountTool.h; sourceTree = "<group>"; };
+		93F4C9EB2182EB0A002A5150 /* KKAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAccount.m; sourceTree = "<group>"; };
+		93F4C9ED2182EB0A002A5150 /* YBRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBRefreshGifHeader.m; sourceTree = "<group>"; };
+		93F4C9EE2182EB0A002A5150 /* YBImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageHelper.h; sourceTree = "<group>"; };
+		93F4C9EF2182EB0A002A5150 /* YBEmitterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEmitterHelper.m; sourceTree = "<group>"; };
+		93F4C9F02182EB0A002A5150 /* YBDiskCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDiskCacheHelper.h; sourceTree = "<group>"; };
+		93F4C9F12182EB0A002A5150 /* AppToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppToolHeader.h; sourceTree = "<group>"; };
+		93F4C9F22182EB0A002A5150 /* YBEmoticonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEmoticonHelper.h; sourceTree = "<group>"; };
+		93F4C9F32182EB0A002A5150 /* YBRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBRefreshFooter.m; sourceTree = "<group>"; };
+		93F4C9F42182EB0A002A5150 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		93F4C9F52182EB0A002A5150 /* YBEmitterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEmitterHelper.h; sourceTree = "<group>"; };
+		93F4C9F62182EB0A002A5150 /* YBImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageHelper.m; sourceTree = "<group>"; };
+		93F4C9F72182EB0A002A5150 /* YBRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRefreshGifHeader.h; sourceTree = "<group>"; };
+		93F4C9F82182EB0A002A5150 /* YBDiskCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDiskCacheHelper.m; sourceTree = "<group>"; };
+		93F4C9F92182EB0A002A5150 /* YBEmoticonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEmoticonHelper.m; sourceTree = "<group>"; };
+		93F4C9FA2182EB0A002A5150 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		93F4C9FB2182EB0A002A5150 /* YBRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRefreshFooter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -923,8 +954,8 @@
 		93F4C5E12181B983002A5150 /* kindergartenApp */ = {
 			isa = PBXGroup;
 			children = (
-				93F4C61A2181BB0C002A5150 /* KKAccount */,
-				93F4C6192181BABE002A5150 /* KKAppTool */,
+				93F4C9E72182EB0A002A5150 /* KKAccount */,
+				93F4C9EC2182EB0A002A5150 /* KKAppTool */,
 				93F4C6182181BABA002A5150 /* KKCommon */,
 				93F4C6172181BAB3002A5150 /* KKVender */,
 				93F4C6162181BA5A002A5150 /* KKViewControllers */,
@@ -993,6 +1024,8 @@
 				93F4C6342181BDC6002A5150 /* KKViewModel.h */,
 				93F4C6352181BDC6002A5150 /* KKViewModel.m */,
 				93F4C6372181BDE3002A5150 /* KKViewModelProtocol.h */,
+				93F4C9D42182E9C3002A5150 /* KKModel.h */,
+				93F4C9D52182E9C3002A5150 /* KKModel.m */,
 			);
 			path = KKBase;
 			sourceTree = "<group>";
@@ -1032,20 +1065,6 @@
 				93F4C61B2181BB38002A5150 /* KKCommon.pch */,
 			);
 			path = KKCommon;
-			sourceTree = "<group>";
-		};
-		93F4C6192181BABE002A5150 /* KKAppTool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = KKAppTool;
-			sourceTree = "<group>";
-		};
-		93F4C61A2181BB0C002A5150 /* KKAccount */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = KKAccount;
 			sourceTree = "<group>";
 		};
 		93F4C6382181CA1C002A5150 /* ReactiveObjC */ = {
@@ -1893,6 +1912,39 @@
 			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
+		93F4C9E72182EB0A002A5150 /* KKAccount */ = {
+			isa = PBXGroup;
+			children = (
+				93F4C9E82182EB0A002A5150 /* KKAccountTool.m */,
+				93F4C9E92182EB0A002A5150 /* KKAccount.h */,
+				93F4C9EA2182EB0A002A5150 /* KKAccountTool.h */,
+				93F4C9EB2182EB0A002A5150 /* KKAccount.m */,
+			);
+			path = KKAccount;
+			sourceTree = "<group>";
+		};
+		93F4C9EC2182EB0A002A5150 /* KKAppTool */ = {
+			isa = PBXGroup;
+			children = (
+				93F4C9ED2182EB0A002A5150 /* YBRefreshGifHeader.m */,
+				93F4C9EE2182EB0A002A5150 /* YBImageHelper.h */,
+				93F4C9EF2182EB0A002A5150 /* YBEmitterHelper.m */,
+				93F4C9F02182EB0A002A5150 /* YBDiskCacheHelper.h */,
+				93F4C9F12182EB0A002A5150 /* AppToolHeader.h */,
+				93F4C9F22182EB0A002A5150 /* YBEmoticonHelper.h */,
+				93F4C9F32182EB0A002A5150 /* YBRefreshFooter.m */,
+				93F4C9F42182EB0A002A5150 /* UIView+Animation.m */,
+				93F4C9F52182EB0A002A5150 /* YBEmitterHelper.h */,
+				93F4C9F62182EB0A002A5150 /* YBImageHelper.m */,
+				93F4C9F72182EB0A002A5150 /* YBRefreshGifHeader.h */,
+				93F4C9F82182EB0A002A5150 /* YBDiskCacheHelper.m */,
+				93F4C9F92182EB0A002A5150 /* YBEmoticonHelper.m */,
+				93F4C9FA2182EB0A002A5150 /* UIView+Animation.h */,
+				93F4C9FB2182EB0A002A5150 /* YBRefreshFooter.h */,
+			);
+			path = KKAppTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2061,6 +2113,7 @@
 				93F4C7292181CA1C002A5150 /* RACEvent.m in Sources */,
 				93F4C96C2181DF6C002A5150 /* IQUIScrollView+Additions.m in Sources */,
 				93F4C85F2181CEA6002A5150 /* YYTimer.m in Sources */,
+				93F4C9D62182E9C3002A5150 /* KKModel.m in Sources */,
 				93F4C72E2181CA1C002A5150 /* RACQueueScheduler.m in Sources */,
 				93F4C8AA2181DF16002A5150 /* MJRefreshAutoFooter.m in Sources */,
 				93F4C70F2181CA1C002A5150 /* RACUnarySequence.m in Sources */,
@@ -2095,6 +2148,7 @@
 				93F4C6FC2181CA1C002A5150 /* NSObject+RACDescription.m in Sources */,
 				93F4C8362181CEA6002A5150 /* YYTextArchiver.m in Sources */,
 				93F4C7082181CA1C002A5150 /* RACSignal+Operations.m in Sources */,
+				93F4CA022182EB0A002A5150 /* YBImageHelper.m in Sources */,
 				93F4C7122181CA1C002A5150 /* RACSequence.m in Sources */,
 				93F4C7262181CA1C002A5150 /* UIBarButtonItem+RACCommandSupport.m in Sources */,
 				93F4C8182181CEA6002A5150 /* YYImageCoder.m in Sources */,
@@ -2172,6 +2226,7 @@
 				93F4C9152181DF3C002A5150 /* AFAutoPurgingImageCache.m in Sources */,
 				93F4C8462181CEA6002A5150 /* NSArray+YYAdd.m in Sources */,
 				93F4C7332181CA1C002A5150 /* NSString+RACSequenceAdditions.m in Sources */,
+				93F4CA002182EB0A002A5150 /* YBRefreshFooter.m in Sources */,
 				93F4C7212181CA1C002A5150 /* NSObject+RACPropertySubscribing.m in Sources */,
 				93F4C7402181CA1C002A5150 /* UIButton+RACCommandSupport.m in Sources */,
 				93F4C8CB2181DF1C002A5150 /* NSArray+MASAdditions.m in Sources */,
@@ -2203,6 +2258,7 @@
 				93F4C7172181CA1C002A5150 /* RACSubscriptingAssignmentTrampoline.m in Sources */,
 				93F4C8A52181DF16002A5150 /* MJRefreshStateHeader.m in Sources */,
 				93F4C89F2181DF16002A5150 /* MJRefreshBackStateFooter.m in Sources */,
+				93F4CA012182EB0A002A5150 /* UIView+Animation.m in Sources */,
 				93F4C84F2181CEA6002A5150 /* NSDate+YYAdd.m in Sources */,
 				93F4C8602181CEA6002A5150 /* YYThreadSafeArray.m in Sources */,
 				93F4C5E42181B983002A5150 /* AppDelegate.m in Sources */,
@@ -2222,6 +2278,7 @@
 				93F4C6F82181CA1C002A5150 /* NSNotificationCenter+RACSupport.m in Sources */,
 				93F4C85B2181CEA6002A5150 /* YYDispatchQueuePool.m in Sources */,
 				93F4C72D2181CA1C002A5150 /* NSArray+RACSequenceAdditions.m in Sources */,
+				93F4C9FC2182EB0A002A5150 /* KKAccountTool.m in Sources */,
 				93F4C8392181CEA6002A5150 /* UIBezierPath+YYAdd.m in Sources */,
 				93F4C96B2181DF6C002A5150 /* IQUITextFieldView+Additions.m in Sources */,
 				93F4C7042181CA1C002A5150 /* NSEnumerator+RACSequenceAdditions.m in Sources */,
@@ -2246,6 +2303,8 @@
 				93F4C8962181DF16002A5150 /* UIScrollView+MJRefresh.m in Sources */,
 				93F4C7442181CA1C002A5150 /* RACSubject.m in Sources */,
 				93F4C8292181CEA6002A5150 /* YYTextLayout.m in Sources */,
+				93F4CA032182EB0A002A5150 /* YBDiskCacheHelper.m in Sources */,
+				93F4C9FE2182EB0A002A5150 /* YBRefreshGifHeader.m in Sources */,
 				93F4C89D2181DF16002A5150 /* UIView+MJExtension.m in Sources */,
 				93F4C8482181CEA6002A5150 /* NSBundle+YYAdd.m in Sources */,
 				93F4C74C2181CA1C002A5150 /* RACCommand.m in Sources */,
@@ -2258,6 +2317,7 @@
 				93F4C89E2181DF16002A5150 /* MJRefreshBackGifFooter.m in Sources */,
 				93F4C8A02181DF16002A5150 /* MJRefreshBackNormalFooter.m in Sources */,
 				93F4C7102181CA1C002A5150 /* RACEmptySequence.m in Sources */,
+				93F4C9FF2182EB0A002A5150 /* YBEmitterHelper.m in Sources */,
 				93F4C8302181CEA6002A5150 /* YYTextUtilities.m in Sources */,
 				93F4C8A92181DF16002A5150 /* MJRefreshBackFooter.m in Sources */,
 				93F4C84A2181CEA6002A5150 /* NSData+YYAdd.m in Sources */,
@@ -2274,6 +2334,7 @@
 				93F4C8372181CEA6002A5150 /* YYTextRubyAnnotation.m in Sources */,
 				93F4C89B2181DF16002A5150 /* UIScrollView+MJExtension.m in Sources */,
 				93F4C6242181BC0E002A5150 /* KKTableViewCell.m in Sources */,
+				93F4C9FD2182EB0A002A5150 /* KKAccount.m in Sources */,
 				93F4C81D2181CEA6002A5150 /* MKAnnotationView+YYWebImage.m in Sources */,
 				93F4C8A62181DF16002A5150 /* MJRefreshGifHeader.m in Sources */,
 				93F4C8C92181DF1C002A5150 /* MASConstraintMaker.m in Sources */,
@@ -2281,6 +2342,7 @@
 				93F4C81E2181CEA6002A5150 /* CALayer+YYWebImage.m in Sources */,
 				93F4C7452181CA1C002A5150 /* NSObject+RACKVOWrapper.m in Sources */,
 				93F4C80F2181CEA6002A5150 /* YYDiskCache.m in Sources */,
+				93F4CA042182EB0A002A5150 /* YBEmoticonHelper.m in Sources */,
 				93F4C7092181CA1C002A5150 /* RACGroupedSignal.m in Sources */,
 				93F4C8582181CEA6002A5150 /* YYThreadSafeDictionary.m in Sources */,
 				93F4C8562181CEA6002A5150 /* YYWeakProxy.m in Sources */,
