@@ -1,0 +1,33 @@
+//
+//  KKCommon.pch
+//  kindergartenApp
+//
+//  Created by 尤彬 on 2018/10/25.
+//  Copyright © 2018 youbin. All rights reserved.
+//
+
+#ifndef KKCommon_pch
+#define KKCommon_pch
+
+
+#ifdef __OBJC__
+
+#import "YYKit.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "dsbridge.h"
+
+#import "ReactiveObjC.h"
+#import "SVProgressHUD.h"
+#import "IQKeyboardManager.h"
+#import "UIScrollView+EmptyDataSet.h"
+
+#endif
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* KKCommon_pch */
+
