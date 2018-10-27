@@ -8,26 +8,13 @@
 
 #import "YBRefreshGifHeader.h"
 
-#define HNRefreshStateRefreshingImagesCount 16
+static NSInteger const refreshImageCount = 16;
 
 @interface YBRefreshGifHeader()
-
-@property (strong, nonatomic) UILabel *label;
 
 @end
 
 @implementation YBRefreshGifHeader
-
--(UILabel *)label{
-    if (_label == nil) {
-        _label = [[UILabel alloc] init];
-        _label.textColor = [UIColor lightGrayColor];
-        _label.font = [UIFont boldSystemFontOfSize:10];
-        _label.textAlignment = NSTextAlignmentCenter;
-    }
-    return _label;
-}
-
 #pragma mark 在这里做一些初始化配置（比如添加子控件）
 - (void)prepare
 {
@@ -35,7 +22,7 @@
     // 设置普通状态的动画图片
     //    self.mj_h = 50;
     NSMutableArray *refreshingImages = [NSMutableArray array];
-    for (NSUInteger i = 1; i< HNRefreshStateRefreshingImagesCount; i++) {
+    for (NSUInteger i = 1; i< refreshImageCount; i++) {
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"dropdown_loading_0%lu", (unsigned long)i]];
         [refreshingImages addObject:image];
     }
@@ -62,7 +49,6 @@
 - (void)setState:(MJRefreshState)state
 {
     MJRefreshCheckState;
-    
     switch (state) {
         case MJRefreshStateIdle:
             self.label.text = @"下拉刷新";
@@ -81,24 +67,21 @@
 
 
 #pragma mark 监听scrollView的contentOffset改变
-- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change
-{
-    [super scrollViewContentOffsetDidChange:change];
+- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change{
     
+    [super scrollViewContentOffsetDidChange:change];
 }
 
 #pragma mark 监听scrollView的contentSize改变
-- (void)scrollViewContentSizeDidChange:(NSDictionary *)change
-{
+- (void)scrollViewContentSizeDidChange:(NSDictionary *)change{
+   
     [super scrollViewContentSizeDidChange:change];
-    
 }
 
 #pragma mark 监听scrollView的拖拽状态改变
-- (void)scrollViewPanStateDidChange:(NSDictionary *)change
-{
+- (void)scrollViewPanStateDidChange:(NSDictionary *)change{
+   
     [super scrollViewPanStateDidChange:change];
-    
 }
 
 

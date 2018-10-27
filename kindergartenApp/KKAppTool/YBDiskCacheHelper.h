@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import <YYKit/YYCache.h>
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YBDiskCacheHelper : NSObject

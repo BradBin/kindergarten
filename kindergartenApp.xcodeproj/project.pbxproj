@@ -1926,7 +1926,6 @@
 		93F4C9EC2182EB0A002A5150 /* KKAppTool */ = {
 			isa = PBXGroup;
 			children = (
-				93F4C9ED2182EB0A002A5150 /* YBRefreshGifHeader.m */,
 				93F4C9EE2182EB0A002A5150 /* YBImageHelper.h */,
 				93F4C9EF2182EB0A002A5150 /* YBEmitterHelper.m */,
 				93F4C9F02182EB0A002A5150 /* YBDiskCacheHelper.h */,
@@ -1937,6 +1936,7 @@
 				93F4C9F52182EB0A002A5150 /* YBEmitterHelper.h */,
 				93F4C9F62182EB0A002A5150 /* YBImageHelper.m */,
 				93F4C9F72182EB0A002A5150 /* YBRefreshGifHeader.h */,
+				93F4C9ED2182EB0A002A5150 /* YBRefreshGifHeader.m */,
 				93F4C9F82182EB0A002A5150 /* YBDiskCacheHelper.m */,
 				93F4C9F92182EB0A002A5150 /* YBEmoticonHelper.m */,
 				93F4C9FA2182EB0A002A5150 /* UIView+Animation.h */,

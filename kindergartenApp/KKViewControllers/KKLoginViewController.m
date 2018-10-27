@@ -8,7 +8,6 @@
 
 #import "KKLoginViewController.h"
  
-
 @interface KKLoginViewController ()
 
 @end
@@ -19,7 +18,10 @@
     [super viewDidLoad];
 }
 
-
+-(void)kk_addSubviews{
+    [super kk_addSubviews];
+    self.view.backgroundColor = UIColor.redColor;
+}
 
 /*
 #pragma mark - Navigation
